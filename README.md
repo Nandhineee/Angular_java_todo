@@ -49,6 +49,7 @@ During the development of this project, I encountered several challenges that ar
 1. Database Configuration: 
      Setting up and configuring the MySQL database with Spring Boot can be tricky, especially if you are new to these technologies.
      We had to ensure the database connection was established correctly and that the data models matched the database schema.
+   
 2.Version Compatibility: 
      Ensuring that different Spring modules and libraries are compatible with each other.
      Mismatched versions can lead to unexpected issues.
