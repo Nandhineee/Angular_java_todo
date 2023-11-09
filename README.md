@@ -57,7 +57,11 @@ During the development of this project, I encountered several challenges that ar
 
 
 👉 Added the required maven dependencies (SQL, Servlet, JSTL, Spring).
+
 👉 Connected Database for storing and accessing data.
+
 👉 Used MVC (Model, View, Controller) Architecture.
+
 👉 Used annotations like @Controller, @RequestMapping, @Autowired.
+
 👉 Used Data Access Object (dao) for accessing Database using queries.
