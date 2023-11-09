@@ -1,8 +1,9 @@
 # SpringBoot_Todo
 Title:ToDo CRUD Application
-TABLE OF CONTENTS:
 
 
+
+# TABLE OF CONTENTS:
  Introduction
  Technologies Used
  Features
@@ -11,35 +12,29 @@ TABLE OF CONTENTS:
  Challenges Faced
  Steps used to build this application
  
-Introduction:
-
+# Introduction:
 
 This is a simple ToDo application that allows users to create, read, update, and delete tasks. 
 The application is built using Spring for the backend and Angular for the frontend.
  
-Technologies Used:
-
+# Technologies Used:
 
 Spring Boot
 Angular
 MySQL Database
  
-Features:
-
+# Features:
 
 Create new details with respective contents.
 View a list of all details.
 Update the values of details.
 Delete detailss.
  
-API Endpoints:
-
-
+# API Endpoints:
 The backend API endpoints are accessible at http://localhost:8080/api/todos.
 You can use tools like Postman to interact with the API.
  
-Database Schema:
-
+# Database Schema:
 
 This application uses a MySQL database with a single table named todo. The schema for the table is as follows:
 CREATE DATABASE jdbc_todo;
@@ -49,9 +44,7 @@ name VARCHAR(50) NOT NULL,
 password VARCHAR(50)
 );
  
-Challenges Faced:
-
-
+# Challenges Faced:
 During the development of this project, I encountered several challenges that are worth mentioning:
 1. Database Configuration: 
      Setting up and configuring the MySQL database with Spring Boot can be tricky, especially if you are new to these technologies.
@@ -60,7 +53,7 @@ During the development of this project, I encountered several challenges that ar
      Ensuring that different Spring modules and libraries are compatible with each other.
      Mismatched versions can lead to unexpected issues.
  
-Steps used to build this application:
+# Steps used to build this application:
 
 
 👉 Added the required maven dependencies (SQL, Servlet, JSTL, Spring).
